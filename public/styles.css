@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: top 5px; ;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+a:hover {
+    color: #3366cc; /* Change text color on hover */
+    text-decoration: none; /* Add underline on hover */
+}
+
+li:active {
+  background-color: #e40c0c; /* Change text color when the link is clicked */
+  text-decoration: none; /* Underline the link when it's clicked */
+}
+
+section {
+    padding: 20px;
+}
