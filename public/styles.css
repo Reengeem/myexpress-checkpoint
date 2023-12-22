@@ -1,38 +1,42 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
+  background-color: blue;
+  color: #fff;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
 }
 
 nav ul {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    margin: 0;
-    padding: top 5px; ;
+  display: flex;
+  /* justify-content: space-around; */
+  list-style-type: none;
+  margin: 0;
+  padding: top 5px;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+  display: inline;
+  margin-right: 20px;
 }
 
 nav a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
 }
 
 a:hover {
-    color: #3366cc; /* Change text color on hover */
-    text-decoration: none; /* Add underline on hover */
+  color: #3366cc; /* Change text color on hover */
+  text-decoration: none; /* Add underline on hover */
 }
 
 li:active {
@@ -41,5 +45,5 @@ li:active {
 }
 
 section {
-    padding: 20px;
+  padding: 20px;
 }
